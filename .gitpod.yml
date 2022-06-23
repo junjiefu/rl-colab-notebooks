@@ -6,6 +6,8 @@ tasks:
     init: | 
       pip install --upgrade pip
       pip install pyglet stable-baselines3[extra]
+      cd rl-baselines3-zoo
+      pip install -r requirements.txt
     command: echo 'start script'
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
