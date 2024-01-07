@@ -1,0 +1,8 @@
+*.pkl
+.ipynb_checkpoints/
+logs/
+*.zip
+videos/
+*.npz
+runs/
+wandb/
